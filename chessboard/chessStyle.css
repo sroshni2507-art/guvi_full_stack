@@ -1,0 +1,40 @@
+body {
+    background-color: plum;
+    margin-left: 300px;
+}
+
+.container {
+    border: 2px solid black;
+    width: 800px;
+    height: 800px;
+}
+
+.row {
+     display: flex;  /* vertical align agum */
+}
+
+.pink {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.blue {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
